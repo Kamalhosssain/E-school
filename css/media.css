@@ -1,0 +1,288 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*header start*/
+   
+ .menu ul li a {
+   
+    padding: 0 15px !important;
+    margin-bottom: 5px;
+}
+.btn_sign {
+    margin-left: 10px;
+}
+.logo {
+    width: 190px;
+}
+.navbar-toggler:focus {
+    
+    box-shadow: none;
+}
+  /*banner start*/
+.banner {
+      padding: 0 0 50px;
+}
+ .b_text{
+    text-align: center;
+ }
+.b_img {
+    padding: 0;
+    margin-bottom: 30px;
+}
+.b_h1 {
+    padding: 0;
+    line-height: 50px;
+    font-size: 35px;
+}
+}.b_p2 {
+    padding: 0;
+    margin-top: 15px;
+    line-height: 25px;
+}
+ .c_padding {
+    padding: 0 0 60px;
+}
+.f_item {
+
+    padding: 45px 0 40px;
+}
+.f_h2 {  
+    font-size: 20px;
+}
+/*course strat*/
+.c_tittle h1 {
+    font-size: 30px;
+   line-height: 45px;
+}
+.c_item {
+    margin: 30px 0 0;
+    padding: 15px;
+   
+}
+.c_h1{
+    font-size: 20px;
+}
+.btn_cus {
+    margin: 15px 0 25px;
+}
+.lit:not(:last-child){
+    margin-right: 0;
+}
+.c_left ul img, .c_right ul img{
+    width: 18px;
+}
+.c_left ul li p, .c_right ul li p {
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+/*testimonial start*/
+.testimonial {
+    padding-bottom: 80px;
+}
+.t_item {
+    margin-top: 40px;
+}
+.t_img {
+    padding: 0 40px 30px;
+  
+}
+.t_text p {
+    text-align: center;
+}
+/*footer top*/
+.footer_top {
+    padding: 20px 0 30px;
+    text-align: center;
+}
+.ft_detailes {
+        margin-bottom: 40px;
+        padding-right: 0;
+}
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+      /*header start*/
+ .menu ul li a {
+   
+    padding: 0 15px !important;
+    margin-bottom: 6px;
+}
+.btn_sign {
+    margin-left: 10px;
+}
+.navbar-toggler:focus {
+    
+    box-shadow: none;
+}
+  /*banner start*/
+  .banner {
+      padding: 20px 0 60px;
+}
+ .b_text{
+    text-align: center;
+ }
+.b_img {
+    padding: 0 70px;
+    margin-bottom: 30px;
+}
+.b_h1 {
+    padding: 0 70px;
+    line-height: 55px;
+    font-size: 40px;
+}
+.b_p2 {
+    padding: 25px 100px;
+}
+  /*feature start*/
+ .c_padding {
+    padding: 0 0 60px;
+}
+.f_item {
+
+    padding: 45px 0 40px;
+}
+.f_h2 {
+   
+    font-size: 20px;
+ 
+}
+/*course start*/
+.c_tittle h1 {
+    font-size: 30px;
+   line-height: 45px;
+}
+.c_item {
+    margin: 30px 30px 0;
+   
+}
+/*testimonial start*/
+.testimonial {
+    padding-bottom: 80px;
+}
+.t_item {
+    margin-top: 40px;
+}
+.t_img {
+    padding: 0 120px 30px;
+   
+}
+.t_text p {
+    text-align: center;
+}
+/*footer top*/
+.footer_top {
+    text-align: center;
+}
+.ft_detailes {
+    padding: 0 80px 0;
+    margin-bottom: 40px;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .menu ul li a {
+      /*header start*/
+    padding: 0 15px !important;
+    margin-bottom: 6px;
+}
+.btn_sign {
+    margin-left: 10px;
+}
+.navbar-toggler:focus {
+    
+    box-shadow: none;
+}
+  /*banner start*/
+  .banner {
+    padding: 40px 0 80px;
+}
+ .b_text{
+    text-align: center;
+ }
+.b_img {
+    padding: 0 50px;
+    margin-bottom: 30px;
+}
+.b_h1 {
+    padding: 0 100px;
+}
+.b_p2 {
+    padding: 25px 100px;
+}
+  /*feature start*/
+ .c_padding {
+    padding: 0 0 80px;
+}
+.f_item {
+
+    padding: 45px 0 40px;
+}
+.f_h2 {
+   
+    font-size: 20px; 
+}
+/*course start*/
+.c_item {
+    margin: 40px 120px 0;
+   
+}
+/*testimonial start*/
+.t_item {
+    margin-top: 40px;
+}
+/*footer top*/
+.footer_top {
+    text-align: center;
+}
+.ft_detailes {
+    padding: 0 160px 0;
+    margin-bottom: 40px;
+}
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   /*banner start*/
+
+.b_h1 {
+    padding-right: 0;
+}
+.b_p2 {
+    padding-right: 25px;
+}
+/*course start*/
+.lit:not(:last-child){
+    margin-right: 0;
+}
+.c_left ul img, .c_right ul img{
+    width: 18px;
+}
+.c_left ul li p, .c_right ul li p {
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /*banner start*/
+
+.b_h1 {
+    padding-right: 80px;
+}
+.b_p2 {
+    padding-right: 100px;
+}
+
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+/*footer top start*/
+.ft_detailes{
+     padding-right: 130px;
+}
+
+
+}
